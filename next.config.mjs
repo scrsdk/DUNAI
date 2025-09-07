@@ -11,6 +11,7 @@ const nextConfig = {
   },
   experimental: {
     allowedDevOrigins: ['https://46c6-45-144-52-194.ngrok-free.app'],
+    reactMode: 'concurrent',
   },
   async headers() {
     return [
